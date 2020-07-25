@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Food2go</string>
+    <string name="mobile_number">Enter the number</string>
+    <string name="password">Enter the password here</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="resgister_here">Resgister here</string>
+    <string name="foodtype">Foodtype</string>
+    <string name="_91430045657">+91430045657</string>
+    <string name="food_chococake_com">food@chococake.com</string>
+    <string name="foodchoco">Foodchoco</string>
+    <string name="_9143435989657">+9143435989657</string>
+    <string name="food_fooddesert_com">food@fooddesert.com</string>
+    <string name="fooddesert">Fooddesert</string>
+    <string name="_91467653545657">+91467653545657</string>
+    <string name="food_cakev_com">food@cakev.com</string>
+    <string name="foodvacake">Foodvacake</string>
+    <string name="_9143435455453">+9143435455453</string>
+    <string name="food_icecream_com">food@icecream.com</string>
+    <string name="icecream_palace">icecream palace</string>
+    <string name="_9143435456">+9143435456</string>
+    <string name="foodcake_cake_com">foodcake@cake.com</string>
+    <string name="cakes">Cakes</string>
+    <string name="_914343545657">+914343545657</string>
+    <string name="food_pizza_com">food@pizza.com</string>
+    <string name="food">Food</string>
+    <string name="todo">TODO</string>
+    <string name="preference_file_name">Food2go</string>
+</resources>

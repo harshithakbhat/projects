@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ef6c00"
+    >
+
+
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:padding="25dp"
+        android:text="WELCOME"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+
+    <ImageView
+        android:id="@+id/imgpic_and"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:src="@drawable/pic_and" />
+
+
+    <Button
+        android:id="@+id/btnclickhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="#c62828"
+        android:text="Click Here"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLayoutHeader"
+        android:layout_margin="20dp"
+        android:hint="Enter your name "
+        android:inputType="text" />
+
+</RelativeLayout>

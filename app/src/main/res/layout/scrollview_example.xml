@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#ef6c00">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ef6c00">
+
+        <ImageView
+            android:id="@+id/img_dwn"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/download"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_toEndOf="@id/img_dwn"
+            android:text="@string/food"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtName"
+            android:layout_margin="15dp"
+            android:layout_toEndOf="@id/img_dwn"
+            android:text="@string/food_pizza_com"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtEmail"
+            android:layout_margin="15dp"
+            android:layout_toEndOf="@id/img_dwn"
+            android:text="@string/_914343545657"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ef6c00">
+
+            <ImageView
+                android:id="@+id/img_dwncake"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/cake"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:id="@+id/txtNamecake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_toEndOf="@id/img_dwncake"
+                android:text="@string/cakes"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEmailcake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtNamecake"
+                android:layout_margin="15dp"
+                android:layout_toEndOf="@id/img_dwncake"
+                android:text="@string/foodcake_cake_com"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPhonecake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEmailcake"
+                android:layout_margin="15dp"
+                android:layout_toEndOf="@id/img_dwncake"
+                android:text="@string/_9143435456"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ef6c00">
+
+            <ImageView
+                android:id="@+id/img_dwnice"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/icecream"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:id="@+id/txtNameice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_toEndOf="@id/img_dwnice"
+                android:text="@string/icecream_palace"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEmailice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtNameice"
+                android:layout_margin="15dp"
+                android:layout_toEndOf="@id/img_dwnice"
+                android:text="@string/food_icecream_com"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPhoneice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEmailice"
+                android:layout_margin="15dp"
+                android:layout_toEndOf="@id/img_dwnice"
+                android:text="@string/_9143435455453"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ef6c00">
+
+            <ImageView
+                android:id="@+id/img_dwnvcake"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/vcake"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:id="@+id/txtNamevcake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_toEndOf="@id/img_dwnvcake"
+                android:text="@string/foodvacake"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEmailvcake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtNamevcake"
+                android:layout_margin="15dp"
+                android:layout_toEndOf="@id/img_dwnvcake"
+                android:text="@string/food_cakev_com"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPhonevcake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEmailvcake"
+                android:layout_margin="15dp"
+                android:layout_toEndOf="@id/img_dwnvcake"
+                android:text="@string/_91467653545657"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ef6c00">
+
+            <ImageView
+                android:id="@+id/img_dwnfull"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/full"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:id="@+id/txtNamefull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_toEndOf="@id/img_dwnfull"
+                android:text="@string/fooddesert"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEmailfull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtNamefull"
+                android:layout_margin="15dp"
+                android:layout_toEndOf="@id/img_dwnfull"
+                android:text="@string/food_fooddesert_com"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPhonefull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEmailfull"
+                android:layout_margin="15dp"
+                android:layout_toEndOf="@id/img_dwnfull"
+                android:text="@string/_9143435989657"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ef6c00">
+
+            <ImageView
+                android:id="@+id/img_dwnchoco"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/choco"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/txtNamechoco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_toEndOf="@id/img_dwnchoco"
+                android:text="@string/foodchoco"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEmailchoco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtNamechoco"
+                android:layout_margin="15dp"
+                android:layout_toEndOf="@id/img_dwnchoco"
+                android:text="@string/food_chococake_com"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPhonechoco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEmailchoco"
+                android:layout_margin="15dp"
+                android:layout_toEndOf="@id/img_dwnchoco"
+                android:text="@string/_91430045657"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
